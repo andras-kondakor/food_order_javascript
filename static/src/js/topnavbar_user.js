@@ -1,6 +1,6 @@
 
 document.getElementById("navMenu_User").innerHTML =
-'<nav class="navbar navbar-default">'+
+'<nav class="navbar navbar" style="background-color: firebrick;">'+
   '<div class="container">'+
     '<div class="navbar-header">'+
       '<a class="navbar-brand" href="#">'+
@@ -10,7 +10,7 @@ document.getElementById("navMenu_User").innerHTML =
     '<ul class="nav navbar-nav navbar-right">'+
       '<li class="active"><a href="#">Home</a></li>'+
       '<li><a href="#">About</a></li>'+
-      '<li><a href="#">Shopping cart</a></li>'+
+      '<li><a href="#"><img src="pictures/shopping_cart.png" width="30" height="22" alt=""></a></li>'+
     '</ul>'+
   '</div>'+
 '</nav>';
