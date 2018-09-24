@@ -9,9 +9,11 @@ form{
 text-align: center;
 
 }
-
-.container
+.login
 {
 align-content: center;
 width: 6cm;
+}
+a{
+color: whitesmoke;
 }
