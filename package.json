@@ -1,0 +1,15 @@
+{
+  "name": "homework",
+  "version": "1.0.0",
+  "description": "Webpage for food order",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kondákor András",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "express": "^4.16.3"
+  }
+}
