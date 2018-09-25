@@ -1,19 +1,33 @@
 .LoginTop {
     color: firebrick;
     text-align: center;
-    
-
+    vertical-align: middle;
+    left: 50%;
+    top:30%;
 }
 
 form{
 text-align: center;
+}
+.login{
+    position: absolute;
+    width: 6 cm;   
+    top: 65%;
+    left: 50%;
+    margin: -100px 0 0 -100px;
+}
 
+.btn{
+   
+    background-color: firebrick;
+    color: whitesmoke;
+    padding: 0.2cm;
+    border-color: firebrick;
+    
 }
-.login
-{
-align-content: center;
-width: 6cm;
-}
-a{
-color: whitesmoke;
+.btn:hover{
+    background-color: whitesmoke;
+    color: firebrick;
+    border-color: firebrick;
+
 }
