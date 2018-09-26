@@ -7,7 +7,7 @@ document.getElementById("navMenu").innerHTML =
       '</a>'+       
     '</div>'+
     '<ul class="nav navbar-nav navbar-right">'+
-      '<li class="navbartext" class="active"><a href="#">Home</a></li>'+
+      '<li class="active"><a href="#">Home</a></li>'+
       '<li><a "href="login.html">Exit</a></li>'+
     '</ul>'+
   '</div>'+
