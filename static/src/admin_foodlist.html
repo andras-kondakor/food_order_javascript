@@ -9,11 +9,68 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/admin_owner.css">
 </head>
 
 <body>
     <nav id="navMenu"></nav>
-    Adminfoodlist
+    <h1 id="maintag">
+        <b>Foods</b>
+    </h1>
+    </div>
+
+    <!-- Editable table -->
+    <div class="card">
+        <div class="card-body">
+            <div id="table">
+                <span class="table-add float-right mb-3 mr-2"><a href="#!" class="text-success"><i class="fa fa-plus fa-2x"
+                            aria-hidden="true"></i></a></span>
+                <table class="table table-bordered table-responsive-md table-striped text-center">
+                    <tr>
+                        <th class="text-center">Picture</th>
+                        <th class="text-center">Name</th>
+                        <th class="text-center">Type</th>
+                        <th class="text-center">Description</th>
+                        <th class="text-center">Price [HUF]</th>
+                        <th class="text-center">Edit</th>
+                    </tr>
+                    <tr>
+                        <td><img src="pictures/bacon_burger.png" width="40" height="40" alt=""></td>
+                        <td>Bacon Burger</td>
+                        <td>Burgerek</td>
+                        <td>Pufi, húspogácsa, bacon, zöldségek, öntet</td>
+                        <td>1060</td>
+                        <td>
+                            <span class="table-remove"><a href="admin_changefood.html"><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">Edit</button></a></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src="pictures/pita.jpg" width="50" height="50" alt=""></td>
+                        <td>Húsimádó pita</td>
+                        <td>Szendvicsek</td>
+                        <td>20 dkg gyroshús, görög pita, lilahagyma, paradicsom</td>
+                        <td>990</td>
+                        <td>
+                            <span class="table-remove"><a href="admin_changefood.html"><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">Edit</button></a></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td> </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+
+                            <span> <a href="admin_changefood.html"> <button id="plus" type="button"> <img id="plus" src="pictures/plus.png"
+                                            width="25" height="25" alt=""></button></a></span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
     <script src="/js/topnavbar.js"></script>
 </body>
 

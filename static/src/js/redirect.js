@@ -1,2 +1,4 @@
-require(login);
+
+function redirect(){
 window.location=getdirection();
+}

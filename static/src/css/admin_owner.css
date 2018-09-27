@@ -1,0 +1,23 @@
+#maintag{
+   
+   border-color:  firebrick;
+   text-align: center;
+   line-height: 150%;
+   left: 20%;
+   color: firebrick;
+}
+
+.card{
+margin-top: 50px;
+}
+
+td{
+    text-align: center;
+}
+
+#plus{
+    background-color: unset;
+    padding: 0%;
+    border-radius: 50%;
+    background-color: white;
+}
