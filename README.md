@@ -10,7 +10,7 @@
 
   - __Vásárlói__:
   
-     o	Itt tud a vásárló a különböző ételek közt válogatni és a kosarába tenni
+      - Itt tud a vásárló a különböző ételek közt válogatni és a kosarába tenni
      o	A kosárba lévő ételek egységszámát változtathatja
      o	Cím és email cím megadásával véglegesítheti a rendelést ( átvételkor van lehetőség fizetni)
   
