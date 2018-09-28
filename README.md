@@ -1,4 +1,4 @@
-# Egyszerű ételrendelést lehetővé weblap
+# Egyszerű ételrendelést megvalósító weblap
 Specifikáció
 
 Ételrendelő honlap 3 felülettel:
