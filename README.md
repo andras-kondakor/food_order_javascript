@@ -1,5 +1,5 @@
-# food_order_javascript
-Homework for server side javascript course
+# Egyszerű ételrendelést lehetővé weblap
+Specifikáció
 
 Ételrendelő honlap 3 felülettel:
 
