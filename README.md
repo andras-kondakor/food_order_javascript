@@ -2,7 +2,7 @@
 
 ## Specifikáció:
 
-> **__Ételrendelő honlap 3 felülettel__**:
+**__Ételrendelő honlap 3 felülettel__**:
 
   __Vásárlói__:
   
