@@ -9,11 +9,45 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/admin_owner.css">
 </head>
 
 <body>
     <nav id="navMenu"></nav>
-    Owner
+    <h1 id="maintag">
+        <b>Orders</b>
+    </h1>
+    <div class="card">
+        <table class="table table-bordered table-responsive-md table-striped text-center">
+            <tr>
+                <th class="text-center">Order ID</th>
+                <th class="text-center">Order</th>
+                <th class="text-center">Address</th>
+                <th class="text-center">Total price [HUF]</th>
+                <th class="text-center">Ok</th>
+            </tr>
+            <tr>
+                <td>#111</td>
+                <td>Bacon Burger, Húsimádó pita</td>
+                <td>2200, Monor Ady Endre út 7.</td>
+                <td>2050</td>
+                <td>
+                    <span class="table-remove"><a href="#"><button id="ok" type="button"> <img id="plus" src="pictures/ok.png"
+                                    width="25" height="25" alt=""></button></a></span>
+                </td>
+            </tr>
+            <tr>
+                <td>#112</td>
+                <td>Húsimádó pita*2</td>
+                <td>2200, Monor Bocskay utca 37.</td>
+                <td>1980</td>
+                <td>
+                    <span class="table-remove"><a href="#"><button id="ok" type="button"> <img id="plus" src="pictures/ok.png"
+                                    width="25" height="25" alt=""></button></a></span>
+                </td>
+            </tr>
+    </div>
+    </table>
     <script src="/js/topnavbar.js"></script>
 
 </body>
