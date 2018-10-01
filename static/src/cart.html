@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/user.css">
+</head>
+
+<body>
+    <nav id="navMenu_User"></nav>
+    <div class="container">
+        <h1 id="header"> Shopping cart</h1>
+
+    </div>
+    <div class="container">
+
+        <table id="carttable" class=" table table-responsive-md table-striped text-center">
+            <tr>
+                <th class="text-center">Food</th>
+                <th class="text-center">Quantity</th>
+                <th class="text-center">Price</th>
+            </tr>
+            <tr>
+                <td>Bacon Burger</td>
+                <td contenteditable="true">1</td>
+                <td>1080</td>
+                <td id="buttoncell">
+                    <span class="table-remove"><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">Remove</button></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Húsimádó pita</td>
+                <td contenteditable="true">1</td>
+                <td>990</td>
+                <td id="buttoncell">
+                    <span class="table-remove"><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">Remove</button></span>
+                </td>
+            </tr>
+        </table>
+
+        <a href="checkout.html">
+            <button id="checkout" class="btn btn-primary">Checkout
+            </button></a>
+    </div>
+
+    <script src="js/topnavbar_user.js"></script>
+
+</body>
+
+</html>
