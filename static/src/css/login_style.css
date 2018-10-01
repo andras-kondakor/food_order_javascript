@@ -14,18 +14,3 @@ text-align: center;
     left: 50%;
     margin: -100px 0 0 -100px;
 }
-
-.btn{
-   
-    background-color: firebrick;
-    color: whitesmoke;
-    padding: 0.2cm;
-    border-color: firebrick;
-    
-}
-.btn:hover{
-    background-color: whitesmoke;
-    color: firebrick;
-    border-color: firebrick;
-
-}

@@ -33,3 +33,7 @@ if(username == "admin" && password == "admin"){
     }
 
 }
+
+function alertaddedtocart(){
+    alert("Item added to shopping cart!");
+}

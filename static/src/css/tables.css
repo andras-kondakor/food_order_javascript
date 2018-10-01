@@ -1,0 +1,36 @@
+
+
+table{
+    
+    border-collapse:separate; 
+    border-spacing: 10px;
+
+}
+
+#buttoncell{
+    width: 20px;
+}
+
+td{
+    text-align: center;
+   }
+th{
+    text-align: center;
+}
+
+.table-remove{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+#checkouttable{
+    width: 50%;
+    float: right;
+}
+
+#carttable{
+    Width:70%;
+    margin: 0px auto;
+}

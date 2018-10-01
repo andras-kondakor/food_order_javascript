@@ -11,9 +11,6 @@
 margin-top: 50px;
 }
 
-td{
-    text-align: center;
-}
 
 #plus{
     background-color: unset;
@@ -50,16 +47,4 @@ td{
     justify-content: center;
     margin-top: 75px;
     margin-bottom: 50px;
-}
-#save{
-    float: left;
-    margin-left: 30%;
-    background-color: firebrick;
-    border-color: firebrick;
-}
-#cancel{
-    float: right;
-    margin-right: 30%;
-    background-color: firebrick;
-    border-color: firebrick;
 }

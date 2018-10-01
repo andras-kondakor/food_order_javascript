@@ -10,47 +10,50 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/user.css">
+    <link rel="stylesheet" href="css/tables.css">
+    <link rel="stylesheet" href="css/buttons.css">
 </head>
 
 <body>
     <nav id="navMenu_User"></nav>
-    <div id="leftside" class="container">
+    <div>
         <h1 id="header"> Checkout</h1>
+        <div class="container">
+            <div id="forms"><input type="email" class="form-control" id="username" placeholder="Enter email">
+                <input type="address" class="form-control" id="username" placeholder="Enter address"></div>
+
+
+            <table id="checkouttable" class=" table table-responsive-md table-striped text-center ">
+                <tr>
+                    <th class="text-center">Your order: </th>
+                    <th class="text-center">Food</th>
+                    <th class="text-center">Quantity</th>
+                    <th class="text-center">Price</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Bacon Burger</td>
+                    <td>1</td>
+                    <td>1080</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Húsimádó pita</td>
+                    <td>1</td>
+                    <td>990</td>
+                </tr>
+            </table>
+
+
+        </div>
+
+        <div><a href="thankyou.html">
+                <button id="checkoutbutton" class="btn btn-primary">Send order!
+                </button></a></div>
+
+        <script src="js/topnavbar_user.js"></script>
+
     </div>
-    <div class="container">
-        <input type="email" class="form-control" id="username" placeholder="Enter email">
-        <input type="address" class="form-control" id="username" placeholder="Enter address">
-    </div>
-    <div id="rightside" class="container">
-
-        <table id="test" class=" table table-responsive-md table-striped text-center">
-            <tr>
-                <th class="text-center">Your order: </th>
-                <th class="text-center">Food</th>
-                <th class="text-center">Quantity</th>
-                <th class="text-center">Price</th>
-            </tr>
-            <tr>
-                <td></td>
-                <td>Bacon Burger</td>
-                <td>1</td>
-                <td>1080</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>Húsimádó pita</td>
-                <td >1</td>
-                <td>990</td>
-            </tr>
-        </table>
-
-        <a href="checkout.html">
-            <button id="checkout" class="btn btn-primary">Send order!
-            </button></a>
-    </div>
-
-    <script src="js/topnavbar_user.js"></script>
-
 </body>
 
 </html>

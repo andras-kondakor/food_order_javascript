@@ -5,69 +5,26 @@
    line-height: 150%;
    left: 20%;
    color: firebrick;
-}
-th{
-    text-align: center;
+   margin-bottom: 30px;
 }
 
-table{
-    
-    border-collapse:separate; 
-    border-spacing: 10px;
-
-}
-.btn{
-   
-    background-color: firebrick;
-    color: whitesmoke;
-    padding: 0.2cm;
-    border-color: firebrick;
-    float: right;
-    
-}
-.btn:hover{
-    background-color: whitesmoke;
-    color: firebrick;
-    border-color: firebrick;
-
-}
-td{
-    text-align: center;
-   }
-
-.table-remove{
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-
-}
-
-#buttoncell{
-    width: 20px;
-}
-
-#checkout{
-    margin-right: 30%;
-    margin-top: 40px;
-}
-
-#leftside{
-display: inline-block;
-}
-#rightside{
-display: inline-block;
-}
 .form-control{
     width: 6cm;
 }
 
-#checkouttable{
-    Width:30%;
-    display: inline-block;
+
+
+#forms{
+float: left;
+margin-top: 40px;;
 }
 
-#carttable{
-    Width:70%;
-    margin: 0px auto;
+#wrapper{    
+margin-top: 50px;;
 }
 
+#aboutus{
+    width: 50%;
+font-size: 16;
+letter-spacing: 2px;
+}
