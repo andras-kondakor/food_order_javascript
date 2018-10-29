@@ -6,6 +6,6 @@ var requireOption = require('../common').requireOption;
  module.exports=function(objectrepository,viewName){
      return function(req,res,next){
         console.log('render loaded');
-         res.end('Template: '+viewName)
+        res.render(viewName);
      };
  };

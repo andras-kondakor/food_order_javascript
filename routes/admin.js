@@ -17,11 +17,11 @@ module.exports = function (app) {
     app.get('/admin/add',
         authMW(objrep),
         updateFoodMW(objrep),
-        renderMW(objrep, 'sadd'));
+        renderMW(objrep, 'admin_changefood'));
 
     app.get('/admin/edit/:id',
         authMW(objrep),
-        renderMW(objrep, '/edit/'+this.id));
+        renderMW(objrep, 'admin_changefood'));
 
     app.post('/admin/edit/:id',
         authMW(objrep));
@@ -31,6 +31,6 @@ module.exports = function (app) {
     app.get('/admin',
         authMW(objrep),
         loadFoodListMW(objrep),
-        renderMW(objrep, '/admin'));
+        renderMW(objrep, 'admin_foodlist'));
 
 };

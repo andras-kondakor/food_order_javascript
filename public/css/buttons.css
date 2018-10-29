@@ -1,0 +1,34 @@
+.btn{
+   
+    background-color: firebrick;
+    color: whitesmoke;
+    padding: 0.2cm;
+    border-color: firebrick;
+    
+}
+
+.btn:hover{
+    background-color: whitesmoke;
+    color: firebrick;
+    border-color: firebrick;
+
+}
+
+#checkoutbutton{
+    margin-right: 30%;
+    margin-top: 40px;
+    float: right;
+}
+
+#save{
+    float: left;
+    margin-left: 30%;
+    background-color: firebrick;
+    border-color: firebrick;
+}
+#cancel{
+    float: right;
+    margin-right: 30%;
+    background-color: firebrick;
+    border-color: firebrick;
+}

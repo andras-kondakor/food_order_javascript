@@ -2,7 +2,17 @@ var express = require('express');
 var app = express();
 
 //app.use(express.static('static/src'));
+app.use( express.static( "public" ) );
+app.set('view engine', 'ejs');
+/**
+ * Let's creat the .tpl and .error on the res object
+ */
+app.use(function (req, res, next) {
+  res.tpl = {};
+  res.tpl.error = [];
 
+  return next();
+});
 
 /**
  * Include all the routes

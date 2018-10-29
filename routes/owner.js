@@ -9,7 +9,7 @@ module.exports = function (app) {
     app.get('/owner',
         authMW(objrep),
         loadOrderListMW(objrep),
-        renderMW(objrep, '/owner'));
+        renderMW(objrep, 'owner'));
 
     app.post('/owner/del/:id',
         authMW(objrep),

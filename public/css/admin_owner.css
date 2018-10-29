@@ -1,0 +1,50 @@
+#maintag{
+   
+   border-color:  firebrick;
+   text-align: center;
+   line-height: 150%;
+   left: 20%;
+   color: firebrick;
+}
+
+.card{
+margin-top: 50px;
+}
+
+
+#plus{
+    background-color: unset;
+    padding: 0%;
+    border-radius: 50%;
+    background-color: white;
+}
+
+#ok{
+    padding: 0%;
+    border-radius: 50%;
+}
+
+#leftside{
+    float: left;
+    margin-left: -5%;
+    
+}
+
+#rightside{
+    float:right;
+    margin-right: -5%;
+    
+    text-align: center;
+}
+
+#description{
+    height: 150px;
+    width: 250px;
+    
+}
+#wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+    margin-bottom: 50px;
+}

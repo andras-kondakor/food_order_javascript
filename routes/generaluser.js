@@ -15,7 +15,7 @@ module.exports = function (app) {
 
     app.get('/about',
         authMW(objrep),
-        renderMW(objrep)
+        renderMW(objrep,'about')
     );
     app.post('/exit',
         authMW(objrep),
@@ -23,7 +23,7 @@ module.exports = function (app) {
     );
     app.get('/login',
         inverseAuthMW(objrep),
-        renderMW(objrep)
+        renderMW(objrep,'login')
     );
     app.post('/login',
         checkUserMW(objrep),
@@ -32,7 +32,7 @@ module.exports = function (app) {
     app.get('/cart',
         inverseAuthMW(objrep),
         loadCartListMW(objrep),
-        renderMW(objrep)
+        renderMW(objrep,'cart')
     );
     app.post('/cart',
         inverseAuthMW(objrep),
@@ -54,20 +54,20 @@ module.exports = function (app) {
     app.get('/checkout',
         inverseAuthMW(objrep),
         loadCartListMW(objrep),
-        renderMW(objrep)
+        renderMW(objrep,'checkout')
     );
 
     app.get('/',
         inverseAuthMW(objrep),
         loadFoodlistMW(objrep),
-        renderMW(objrep)
+        renderMW(objrep, 'index')
     );
     app.post('/',
         addItemtoCartMW(objrep),
     );
     app.get('/thankyou',
         inverseAuthMW(objrep),
-        renderMW(objrep)
+        renderMW(objrep,'thankyou')
     );
 
 }

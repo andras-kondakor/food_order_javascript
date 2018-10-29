@@ -1,0 +1,36 @@
+<% include header %>
+<% include navbar_user %>
+    <nav id="navMenu_User"></nav>
+
+    <div>
+        <h1 id="header"> Shopping cart</h1>
+
+        <table id="carttable" class=" table table-responsive-md table-striped text-center">
+            <tr>
+                <th class="text-center">Food</th>
+                <th class="text-center">Quantity</th>
+                <th class="text-center">Price</th>
+            </tr>
+            <tr>
+                <td>Bacon Burger</td>
+                <td contenteditable="true">1</td>
+                <td>1080</td>
+                <td id="buttoncell">
+                    <span class="table-remove"><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">Remove</button></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Húsimádó pita</td>
+                <td contenteditable="true">1</td>
+                <td>990</td>
+                <td id="buttoncell">
+                    <span class="table-remove"><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">Remove</button></span>
+                </td>
+            </tr>
+        </table>
+
+        <a href="/checkout">
+            <button id="checkoutbutton" class="btn btn-primary">Checkout
+            </button></a>
+    </div>
+    <% include footer %>

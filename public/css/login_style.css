@@ -1,0 +1,16 @@
+.LoginTop {
+    color: firebrick;
+    text-align: center;
+    
+}
+
+form{
+text-align: center;
+}
+.login{
+    position: absolute;
+    width: 6 cm;   
+    top: 65%;
+    left: 50%;
+    margin: -100px 0 0 -100px;
+}

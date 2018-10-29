@@ -1,0 +1,49 @@
+<% include header %>
+<% include navbar_user %>
+    <nav id="navMenu"></nav>
+    <div class="container" id="wrapper">
+        <div class="center">
+            <div id="leftside">
+                <table>
+                    <tr>
+
+                        <td><img src="pictures/nopic.png" width="100" height="70" alt=""></td>
+                        <td>
+                            <form action="/action_page.php">
+                                <input type="file" name="pic" accept="image/*">
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td>Name</td>
+                        <td><input class="form-control"></td>
+                    </tr>
+                    <tr>
+
+                        <td>Type</td>
+                        <td><input class="form-control"></td>
+                    </tr>
+                    <tr>
+
+                        <td>Price</td>
+                        <td><input class="form-control"></td>
+                    </tr>
+
+                </table>
+
+
+
+            </div>
+            <div id="rightside">
+                <label>Description</label>
+                <input class="form-control" id="description">
+
+            </div>
+        </div>
+    </div>
+    <div id="buttons" class="container">
+        <button id="save" type="submit" class="btn btn-primary">Save</button>
+        <button id="cancel" type="submit" class="btn btn-primary">Cancel</button>
+    </div>
+    <% include footer %>

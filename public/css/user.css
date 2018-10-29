@@ -1,0 +1,30 @@
+#header{
+      
+   border-color:  firebrick;
+   text-align: center;
+   line-height: 150%;
+   left: 20%;
+   color: firebrick;
+   margin-bottom: 30px;
+}
+
+.form-control{
+    width: 6cm;
+}
+
+
+
+#forms{
+float: left;
+margin-top: 40px;;
+}
+
+#wrapper{    
+margin-top: 50px;;
+}
+
+#aboutus{
+    width: 50%;
+font-size: 16;
+letter-spacing: 2px;
+}
